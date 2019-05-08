@@ -4,6 +4,8 @@ import time
 import MySQLdb as db
 import requests
 import json
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
 
 # MQTT details
 MQTT_HOST = '10.129.149.9'
@@ -12,7 +14,8 @@ MQTT_PORT = 1883
 KEEP_ALIVE_TIME = 60
 
 # api-endpoint 
-URL = "http://10.129.149.33:1338/equipment"
+# URL = "http://10.129.149.33:1338/equipment"
+URL = "http://seil.cse.iitb.ac.in:1337/equipment"
 
 # defining a params dict for the parameters to be sent to the API 
 HEADERS = {"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJuYW1lIjoic2VpbEBjc2UuaWl0Yi5hYy5pbiJ9LCJpYXQiOjE1NTUxNjEwNTAsImV4cCI6MTU4NjY5NzA1MH0.D_EnHNCKxwefyW9F3oKO4eDP3WKdJnX6nPF-V9dGp5w"}
@@ -47,7 +50,7 @@ def on_msg(client, userdata, msg):
   global mqtt_command
   global appliance_type
   global PARAMS
-  # global prev_data
+# global prev_data
 
   # print(msg.payload)
   # print(msg.topic)
@@ -86,8 +89,18 @@ def on_msg(client, userdata, msg):
 
   # print(data[0]['id'])
   
-  time.sleep(4)
-  getPowerData("\'power_k_seil_l\'", str(int(time.time())))
+  if PARAMS['serial'] == 'Z1L' or PARAMS['serial'] == 'Z1F' or PARAMS['serial'] == 'Z1A' :
+    print("We dont do that here")
+    img=mpimg.imread('meme.jpg')
+    imgplot = plt.imshow(img)
+    plt.show()
+  else:
+    print("kaisa kiya bhaiyaa")
+    img=mpimg.imread('meme_bhaiya.jpg')
+    imgplot = plt.imshow(img)
+    plt.show()
+    time.sleep(4)
+    getPowerData("\'power_k_seil_l\'", str(int(time.time())))
 
 def create_connection(user, pswd):
 
