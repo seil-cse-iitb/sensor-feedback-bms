@@ -1,0 +1,297 @@
+[
+    {
+        "equipments": [
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "col": 1,
+                    "colspan": 1,
+                    "state": true,
+                    "row": 2,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069148390,
+                "updatedAt": 1557836550395,
+                "id": 21,
+                "serial": "F1F",
+                "name": "Fan 1",
+                "location": 7,
+                "type": "fan"
+            },
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "col": 3,
+                    "colspan": 1,
+                    "state": false,
+                    "row": 2,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069177876,
+                "updatedAt": 1557833652075,
+                "id": 22,
+                "serial": "F2F",
+                "name": "Fan 2",
+                "location": 7,
+                "type": "fan"
+            },
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "col": 3,
+                    "colspan": 1,
+                    "state": false,
+                    "row": 4,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069193355,
+                "updatedAt": 1557832603685,
+                "id": 23,
+                "serial": "F3F",
+                "name": "Fan 3",
+                "location": 7,
+                "type": "fan"
+            },
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "col": 1,
+                    "colspan": 1,
+                    "state": false,
+                    "row": 4,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069204056,
+                "updatedAt": 1557833655629,
+                "id": 24,
+                "serial": "F4F",
+                "name": "Fan 4",
+                "location": 7,
+                "type": "fan"
+            },
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "col": 1,
+                    "colspan": 1,
+                    "state": true,
+                    "row": 6,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069212330,
+                "updatedAt": 1557833799455,
+                "id": 25,
+                "serial": "F5F",
+                "name": "Fan 5",
+                "location": 7,
+                "type": "fan"
+            },
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "col": 3,
+                    "colspan": 1,
+                    "state": false,
+                    "row": 6,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069223511,
+                "updatedAt": 1557832606804,
+                "id": 26,
+                "serial": "F6F",
+                "name": "Fan 6",
+                "location": 7,
+                "type": "fan"
+            }
+        ],
+        "properties": {
+            "state": false
+        },
+        "createdAt": 1534157868966,
+        "updatedAt": 1557833796585,
+        "id": 1,
+        "serial": "Z1F",
+        "name": "All Fans",
+        "location": {
+            "properties": {
+                "cols": 3,
+                "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
+                "rows": 7
+            },
+            "createdAt": 1546009048240,
+            "updatedAt": 1546009048240,
+            "network": {
+                "address": "10.129.149.0",
+                "netmask": "255.255.255.0"
+            },
+            "id": 7,
+            "name": "SIC 213"
+        }
+    },
+    {
+        "equipments": [
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "multiplicity": 3,
+                    "col": 1,
+                    "colspan": 3,
+                    "state": true,
+                    "row": 1,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534068957575,
+                "updatedAt": 1557833805513,
+                "id": 17,
+                "serial": "F1L",
+                "name": "Light 1",
+                "location": 7,
+                "type": "light_array"
+            },
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "multiplicity": 3,
+                    "col": 1,
+                    "colspan": 3,
+                    "state": true,
+                    "row": 3,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069066617,
+                "updatedAt": 1557898672386,
+                "id": 18,
+                "serial": "F2L",
+                "name": "Light 2",
+                "location": 7,
+                "type": "light_array"
+            },
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "multiplicity": 3,
+                    "col": 1,
+                    "colspan": 3,
+                    "state": true,
+                    "row": 5,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069092504,
+                "updatedAt": 1557832718184,
+                "id": 19,
+                "serial": "F3L",
+                "name": "Light 3",
+                "location": 7,
+                "type": "light_array"
+            },
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "multiplicity": 3,
+                    "col": 1,
+                    "colspan": 3,
+                    "state": true,
+                    "row": 7,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069104243,
+                "updatedAt": 1557832576010,
+                "id": 20,
+                "serial": "F4L",
+                "name": "Light 4",
+                "location": 7,
+                "type": "light_array"
+            }
+        ],
+        "properties": {
+            "state": false
+        },
+        "createdAt": 1534158008736,
+        "updatedAt": 1557898671933,
+        "id": 2,
+        "serial": "Z1L",
+        "name": "All Lights",
+        "location": {
+            "properties": {
+                "cols": 3,
+                "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
+                "rows": 7
+            },
+            "createdAt": 1546009048240,
+            "updatedAt": 1546009048240,
+            "network": {
+                "address": "10.129.149.0",
+                "netmask": "255.255.255.0"
+            },
+            "id": 7,
+            "name": "SIC 213"
+        }
+    },
+    {
+        "equipments": [
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "col": 2,
+                    "colspan": 1,
+                    "state": true,
+                    "row": 2,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069288024,
+                "updatedAt": 1557819154988,
+                "id": 27,
+                "serial": "F1A",
+                "name": "AC 1",
+                "location": 7,
+                "type": "ac"
+            },
+            {
+                "properties": {
+                    "rowspan": 1,
+                    "switch": {
+                        "hidden": true
+                    },
+                    "col": 2,
+                    "colspan": 1,
+                    "state": true,
+                    "row": 6,
+                    "orientation": "horizontal"
+                },
+                "createdAt": 1534069306914,
+                "updatedAt": 1557833621703,
+                "id": 28,
+                "serial": "F2A",
+                "name": "AC 2",
+                "location": 7,
+                "type": "ac"
+            }
+        ],
+        "properties": {
+            "state": false
+        },
+        "createdAt": 1534158015686,
+        "updatedAt": 1557833618714,
+        "id": 3,
+        "serial": "Z1A",
+        "name": "All ACs",
+        "location": {
+            "properties": {
+                "cols": 3,
+                "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
+                "rows": 7
+            },
+            "createdAt": 1546009048240,
+            "updatedAt": 1546009048240,
+            "network": {
+                "address": "10.129.149.0",
+                "netmask": "255.255.255.0"
+            },
+            "id": 7,
+            "name": "SIC 213"
+        }
+    }
+]
