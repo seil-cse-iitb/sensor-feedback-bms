@@ -1,549 +1,549 @@
 [
     {
+        "id": 17,
+        "updatedAt": 1557914177377,
         "properties": {
-            "rowspan": 1,
             "multiplicity": 3,
-            "col": 1,
             "colspan": 3,
             "state": true,
+            "col": 1,
             "row": 1,
-            "orientation": "horizontal"
+            "orientation": "horizontal",
+            "rowspan": 1
         },
-        "createdAt": 1534068957575,
-        "updatedAt": 1557833805513,
-        "id": 17,
+        "groups": [
+            {
+                "id": 2,
+                "updatedAt": 1557928245694,
+                "properties": {
+                    "state": false
+                },
+                "serial": "Z1L",
+                "name": "All Lights",
+                "location": 7,
+                "createdAt": 1534158008736
+            }
+        ],
         "serial": "F1L",
         "name": "Light 1",
+        "type": "light_array",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
+        },
+        "createdAt": 1534068957575
+    },
+    {
+        "id": 18,
+        "updatedAt": 1557913951651,
+        "properties": {
+            "multiplicity": 3,
+            "colspan": 3,
+            "state": true,
+            "col": 1,
+            "row": 3,
+            "orientation": "horizontal",
+            "rowspan": 1
         },
         "groups": [
             {
+                "id": 2,
+                "updatedAt": 1557928245694,
                 "properties": {
                     "state": false
                 },
-                "createdAt": 1534158008736,
-                "updatedAt": 1557898671933,
-                "id": 2,
                 "serial": "Z1L",
                 "name": "All Lights",
-                "location": 7
+                "location": 7,
+                "createdAt": 1534158008736
             }
         ],
-        "type": "light_array"
-    },
-    {
-        "properties": {
-            "rowspan": 1,
-            "multiplicity": 3,
-            "col": 1,
-            "colspan": 3,
-            "state": true,
-            "row": 3,
-            "orientation": "horizontal"
-        },
-        "createdAt": 1534069066617,
-        "updatedAt": 1557898672386,
-        "id": 18,
         "serial": "F2L",
         "name": "Light 2",
+        "type": "light_array",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
+        },
+        "createdAt": 1534069066617
+    },
+    {
+        "id": 19,
+        "updatedAt": 1557913994069,
+        "properties": {
+            "multiplicity": 3,
+            "colspan": 3,
+            "state": true,
+            "col": 1,
+            "row": 5,
+            "orientation": "horizontal",
+            "rowspan": 1
         },
         "groups": [
             {
+                "id": 2,
+                "updatedAt": 1557928245694,
                 "properties": {
                     "state": false
                 },
-                "createdAt": 1534158008736,
-                "updatedAt": 1557898671933,
-                "id": 2,
                 "serial": "Z1L",
                 "name": "All Lights",
-                "location": 7
+                "location": 7,
+                "createdAt": 1534158008736
             }
         ],
-        "type": "light_array"
-    },
-    {
-        "properties": {
-            "rowspan": 1,
-            "multiplicity": 3,
-            "col": 1,
-            "colspan": 3,
-            "state": true,
-            "row": 5,
-            "orientation": "horizontal"
-        },
-        "createdAt": 1534069092504,
-        "updatedAt": 1557832718184,
-        "id": 19,
         "serial": "F3L",
         "name": "Light 3",
+        "type": "light_array",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
         },
-        "groups": [
-            {
-                "properties": {
-                    "state": false
-                },
-                "createdAt": 1534158008736,
-                "updatedAt": 1557898671933,
-                "id": 2,
-                "serial": "Z1L",
-                "name": "All Lights",
-                "location": 7
-            }
-        ],
-        "type": "light_array"
+        "createdAt": 1534069092504
     },
     {
+        "id": 20,
+        "updatedAt": 1557928246182,
         "properties": {
-            "rowspan": 1,
             "multiplicity": 3,
-            "col": 1,
             "colspan": 3,
             "state": true,
+            "col": 1,
             "row": 7,
-            "orientation": "horizontal"
-        },
-        "createdAt": 1534069104243,
-        "updatedAt": 1557832576010,
-        "id": 20,
-        "serial": "F4L",
-        "name": "Light 4",
-        "location": {
-            "properties": {
-                "cols": 3,
-                "mqtt_broker_uri": "mqtt://10.129.149.9",
-                "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
-                "rows": 7
-            },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
-            "network": {
-                "address": "10.129.149.0",
-                "netmask": "255.255.255.0"
-            },
-            "id": 7,
-            "name": "SIC 213"
+            "orientation": "horizontal",
+            "rowspan": 1
         },
         "groups": [
             {
+                "id": 2,
+                "updatedAt": 1557928245694,
                 "properties": {
                     "state": false
                 },
-                "createdAt": 1534158008736,
-                "updatedAt": 1557898671933,
-                "id": 2,
                 "serial": "Z1L",
                 "name": "All Lights",
-                "location": 7
+                "location": 7,
+                "createdAt": 1534158008736
             }
         ],
-        "type": "light_array"
+        "serial": "F4L",
+        "name": "Light 4",
+        "type": "light_array",
+        "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
+            "properties": {
+                "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
+                "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
+                "rows": 7
+            },
+            "name": "SIC 213",
+            "network": {
+                "address": "10.129.149.0",
+                "netmask": "255.255.255.0"
+            },
+            "createdAt": 1546009048240
+        },
+        "createdAt": 1534069104243
     },
     {
+        "id": 21,
+        "updatedAt": 1557985234226,
         "properties": {
-            "rowspan": 1,
-            "col": 1,
             "colspan": 1,
             "state": true,
+            "col": 1,
             "row": 2,
-            "orientation": "horizontal"
+            "orientation": "horizontal",
+            "rowspan": 1
         },
-        "createdAt": 1534069148390,
-        "updatedAt": 1557836550395,
-        "id": 21,
+        "groups": [
+            {
+                "id": 1,
+                "updatedAt": 1557985231364,
+                "properties": {
+                    "state": false
+                },
+                "serial": "Z1F",
+                "name": "All Fans",
+                "location": 7,
+                "createdAt": 1534157868966
+            }
+        ],
         "serial": "F1F",
         "name": "Fan 1",
+        "type": "fan",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
+        },
+        "createdAt": 1534069148390
+    },
+    {
+        "id": 22,
+        "updatedAt": 1557913963773,
+        "properties": {
+            "colspan": 1,
+            "state": true,
+            "col": 3,
+            "row": 2,
+            "orientation": "horizontal",
+            "rowspan": 1
         },
         "groups": [
             {
+                "id": 1,
+                "updatedAt": 1557985231364,
                 "properties": {
                     "state": false
                 },
-                "createdAt": 1534157868966,
-                "updatedAt": 1557833796585,
-                "id": 1,
                 "serial": "Z1F",
                 "name": "All Fans",
-                "location": 7
+                "location": 7,
+                "createdAt": 1534157868966
             }
         ],
-        "type": "fan"
-    },
-    {
-        "properties": {
-            "rowspan": 1,
-            "col": 3,
-            "colspan": 1,
-            "state": false,
-            "row": 2,
-            "orientation": "horizontal"
-        },
-        "createdAt": 1534069177876,
-        "updatedAt": 1557833652075,
-        "id": 22,
         "serial": "F2F",
         "name": "Fan 2",
+        "type": "fan",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
+        },
+        "createdAt": 1534069177876
+    },
+    {
+        "id": 23,
+        "updatedAt": 1557913988003,
+        "properties": {
+            "colspan": 1,
+            "state": true,
+            "col": 3,
+            "row": 4,
+            "orientation": "horizontal",
+            "rowspan": 1
         },
         "groups": [
             {
+                "id": 1,
+                "updatedAt": 1557985231364,
                 "properties": {
                     "state": false
                 },
-                "createdAt": 1534157868966,
-                "updatedAt": 1557833796585,
-                "id": 1,
                 "serial": "Z1F",
                 "name": "All Fans",
-                "location": 7
+                "location": 7,
+                "createdAt": 1534157868966
             }
         ],
-        "type": "fan"
-    },
-    {
-        "properties": {
-            "rowspan": 1,
-            "col": 3,
-            "colspan": 1,
-            "state": false,
-            "row": 4,
-            "orientation": "horizontal"
-        },
-        "createdAt": 1534069193355,
-        "updatedAt": 1557832603685,
-        "id": 23,
         "serial": "F3F",
         "name": "Fan 3",
+        "type": "fan",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
+        },
+        "createdAt": 1534069193355
+    },
+    {
+        "id": 24,
+        "updatedAt": 1557914006182,
+        "properties": {
+            "colspan": 1,
+            "state": true,
+            "col": 1,
+            "row": 4,
+            "orientation": "horizontal",
+            "rowspan": 1
         },
         "groups": [
             {
+                "id": 1,
+                "updatedAt": 1557985231364,
                 "properties": {
                     "state": false
                 },
-                "createdAt": 1534157868966,
-                "updatedAt": 1557833796585,
-                "id": 1,
                 "serial": "Z1F",
                 "name": "All Fans",
-                "location": 7
+                "location": 7,
+                "createdAt": 1534157868966
             }
         ],
-        "type": "fan"
-    },
-    {
-        "properties": {
-            "rowspan": 1,
-            "col": 1,
-            "colspan": 1,
-            "state": false,
-            "row": 4,
-            "orientation": "horizontal"
-        },
-        "createdAt": 1534069204056,
-        "updatedAt": 1557833655629,
-        "id": 24,
         "serial": "F4F",
         "name": "Fan 4",
+        "type": "fan",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
+        },
+        "createdAt": 1534069204056
+    },
+    {
+        "id": 25,
+        "updatedAt": 1557985228169,
+        "properties": {
+            "colspan": 1,
+            "state": true,
+            "col": 1,
+            "row": 6,
+            "orientation": "horizontal",
+            "rowspan": 1
         },
         "groups": [
             {
+                "id": 1,
+                "updatedAt": 1557985231364,
                 "properties": {
                     "state": false
                 },
-                "createdAt": 1534157868966,
-                "updatedAt": 1557833796585,
-                "id": 1,
                 "serial": "Z1F",
                 "name": "All Fans",
-                "location": 7
+                "location": 7,
+                "createdAt": 1534157868966
             }
         ],
-        "type": "fan"
-    },
-    {
-        "properties": {
-            "rowspan": 1,
-            "col": 1,
-            "colspan": 1,
-            "state": true,
-            "row": 6,
-            "orientation": "horizontal"
-        },
-        "createdAt": 1534069212330,
-        "updatedAt": 1557833799455,
-        "id": 25,
         "serial": "F5F",
         "name": "Fan 5",
+        "type": "fan",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
         },
-        "groups": [
-            {
-                "properties": {
-                    "state": false
-                },
-                "createdAt": 1534157868966,
-                "updatedAt": 1557833796585,
-                "id": 1,
-                "serial": "Z1F",
-                "name": "All Fans",
-                "location": 7
-            }
-        ],
-        "type": "fan"
+        "createdAt": 1534069212330
     },
     {
-        "properties": {
-            "rowspan": 1,
-            "col": 3,
-            "colspan": 1,
-            "state": false,
-            "row": 6,
-            "orientation": "horizontal"
-        },
-        "createdAt": 1534069223511,
-        "updatedAt": 1557832606804,
         "id": 26,
-        "serial": "F6F",
-        "name": "Fan 6",
-        "location": {
-            "properties": {
-                "cols": 3,
-                "mqtt_broker_uri": "mqtt://10.129.149.9",
-                "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
-                "rows": 7
-            },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
-            "network": {
-                "address": "10.129.149.0",
-                "netmask": "255.255.255.0"
-            },
-            "id": 7,
-            "name": "SIC 213"
-        },
-        "groups": [
-            {
-                "properties": {
-                    "state": false
-                },
-                "createdAt": 1534157868966,
-                "updatedAt": 1557833796585,
-                "id": 1,
-                "serial": "Z1F",
-                "name": "All Fans",
-                "location": 7
-            }
-        ],
-        "type": "fan"
-    },
-    {
+        "updatedAt": 1557913957717,
         "properties": {
-            "rowspan": 1,
-            "col": 2,
             "colspan": 1,
             "state": true,
-            "row": 2,
-            "orientation": "horizontal"
+            "col": 3,
+            "row": 6,
+            "orientation": "horizontal",
+            "rowspan": 1
         },
-        "createdAt": 1534069288024,
-        "updatedAt": 1557819154988,
-        "id": 27,
-        "serial": "F1A",
-        "name": "AC 1",
+        "groups": [
+            {
+                "id": 1,
+                "updatedAt": 1557985231364,
+                "properties": {
+                    "state": false
+                },
+                "serial": "Z1F",
+                "name": "All Fans",
+                "location": 7,
+                "createdAt": 1534157868966
+            }
+        ],
+        "serial": "F6F",
+        "name": "Fan 6",
+        "type": "fan",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
+        },
+        "createdAt": 1534069223511
+    },
+    {
+        "id": 27,
+        "updatedAt": 1557913981942,
+        "properties": {
+            "colspan": 1,
+            "state": true,
+            "col": 2,
+            "row": 2,
+            "orientation": "horizontal",
+            "rowspan": 1
         },
         "groups": [
             {
+                "id": 3,
+                "updatedAt": 1557913997164,
                 "properties": {
                     "state": false
                 },
-                "createdAt": 1534158015686,
-                "updatedAt": 1557833618714,
-                "id": 3,
                 "serial": "Z1A",
                 "name": "All ACs",
-                "location": 7
+                "location": 7,
+                "createdAt": 1534158015686
             }
         ],
-        "type": "ac"
+        "serial": "F1A",
+        "name": "AC 1",
+        "type": "ac",
+        "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
+            "properties": {
+                "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
+                "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
+                "rows": 7
+            },
+            "name": "SIC 213",
+            "network": {
+                "address": "10.129.149.0",
+                "netmask": "255.255.255.0"
+            },
+            "createdAt": 1546009048240
+        },
+        "createdAt": 1534069288024
     },
     {
+        "id": 28,
+        "updatedAt": 1557914000126,
         "properties": {
-            "rowspan": 1,
             "switch": {
                 "hidden": true
             },
-            "col": 2,
             "colspan": 1,
             "state": true,
+            "col": 2,
             "row": 6,
-            "orientation": "horizontal"
+            "orientation": "horizontal",
+            "rowspan": 1
         },
-        "createdAt": 1534069306914,
-        "updatedAt": 1557833621703,
-        "id": 28,
+        "groups": [
+            {
+                "id": 3,
+                "updatedAt": 1557913997164,
+                "properties": {
+                    "state": false
+                },
+                "serial": "Z1A",
+                "name": "All ACs",
+                "location": 7,
+                "createdAt": 1534158015686
+            }
+        ],
         "serial": "F2A",
         "name": "AC 2",
+        "type": "ac",
         "location": {
+            "id": 7,
+            "updatedAt": 1546009048240,
             "properties": {
-                "cols": 3,
                 "mqtt_broker_uri": "mqtt://10.129.149.9",
+                "cols": 3,
                 "embeds": "<iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/000000004/erts-seil?refresh=5s&orgId=1&panelId=1&theme=dark\" width=\"100%\" height=\"200\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=6&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=7&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><iframe src=\"http://seil.cse.iitb.ac.in/grafana/d-solo/l9Vwla5mz/kresit-2nd-floor?refresh=5s&orgId=1&panelId=8&theme=dark\" width=\"25%\" height=\"100\" frameborder=\"0\"></iframe><a href=\"http://seil.cse.iitb.ac.in/grafana/d/000000004/erts-seil?refresh=5s&orgId=1\" target=\"_blank\"><i class=\"material-icons\" style=\"font-size:2em\">insert_chart</i></a>",
                 "rows": 7
             },
-            "createdAt": 1546009048240,
-            "updatedAt": 1546009048240,
+            "name": "SIC 213",
             "network": {
                 "address": "10.129.149.0",
                 "netmask": "255.255.255.0"
             },
-            "id": 7,
-            "name": "SIC 213"
+            "createdAt": 1546009048240
         },
-        "groups": [
-            {
-                "properties": {
-                    "state": false
-                },
-                "createdAt": 1534158015686,
-                "updatedAt": 1557833618714,
-                "id": 3,
-                "serial": "Z1A",
-                "name": "All ACs",
-                "location": 7
-            }
-        ],
-        "type": "ac"
+        "createdAt": 1534069306914
     }
 ]

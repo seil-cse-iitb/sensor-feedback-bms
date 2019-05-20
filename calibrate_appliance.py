@@ -5,6 +5,11 @@ import time
 import paho.mqtt.client as mqtt
 import paho.mqtt.client as client
 from threading import Thread
+import MySQLdb as db
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+
+calibration = False
 
 class GetApplianceList(object):
 
@@ -100,9 +105,52 @@ class MqttHandler(object):
 
     def on_msg(self, client, userdata, msg):
         print("%s : %s : %d" %(msg.topic, msg.payload, len(msg.payload)))
+        power_data_object = GetDataFromDatabase()
+        power_data_object.getPowerData("\'power_k_seil_l\'")
+
+class GetDataFromDatabase(object):
+    
+    def __init__(self):
+
+        self.db_host = "mysql.seil.cse.iitb.ac.in"
+        self.db_reader = "reader"
+        self.db_writer = "writer"
+        self.db_password = "reader"
+        self.db_database = "seil_sensor_data"
+        self.power_table = "sch_3"
+
+    def createConnection(self, user, pswd):
+        con = db.connect(self.db_host, user, pswd, self.db_database)
+        cursor = con.cursor()
+
+        return con, cursor
+
+    def getPowerData(self, sensor_id):
+        global calibration
+
+        con, cursor = self.createConnection(self.db_reader, self.db_password)
+
+        sql = "SELECT sensor_id, TS, W, VAR FROM seil_sensor_data.sch_3 where sensor_id = "+ sensor_id + " order by TS desc limit 5;"
+
+        power_data = []
+
+        try:
+            cursor.execute(sql)
+            power_data = cursor.fetchall()
+            if calibration:
+                print("Calibration ON")
+            else:
+                print("Calibration OFF")
+            print(power_data)
+        except Exception as e:
+            print("Error: %s" % str(e))
+
+        con.close()
 
 
 def initRoom():
+
+    global calibration
 
     # Start MQTT server
     mqtt_handler = MqttHandler()
@@ -119,6 +167,7 @@ def initRoom():
         print(keys[1])
 
     # Turning ON/OFF individual appliance in order to capture power signature
+    calibration = True
     for keys in appliance_dict.keys():
         print("Turning OFF appliance : ", keys)
         appliance_properties.actuateAppliance(str(keys[1]), 'S0')
@@ -126,6 +175,7 @@ def initRoom():
         print("Turning ON appliance : ", keys)
         appliance_properties.actuateAppliance(str(keys[1]), 'S1')
         time.sleep(3)
+    calibration = False
 
 if __name__ == "__main__":
     initRoom()
