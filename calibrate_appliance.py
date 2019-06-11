@@ -11,6 +11,9 @@ import matplotlib.image as mpimg
 
 calibration = False
 
+# This class pings the server and gets the number and type of appliances in a particular room.
+# It has methods which return the dictionary that contains appliance local ID as well as global IDs.
+# These IDs are used to actuate the particular appliances.
 class GetApplianceList(object):
 
     def __init__(self):
@@ -84,6 +87,8 @@ class GetApplianceList(object):
 
         requests.post(url=self.URL_ACTUATE + appliance_id, headers= self.HEADERS, data= json.dumps({"msg": command,"state" : state}))
 
+# The class contains all the MQTT related methods such as subs/pub over MQTT. 
+# Once the command is sent ove MQTT to actuate the appliance, this callback function gets called which in turn gets appliance power consumption.
 class MqttHandler(object):
     
     MQTT_HOST = "10.129.149.9"
